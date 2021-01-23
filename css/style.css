@@ -188,13 +188,13 @@ form input {
    height: 47px;
    width: 261px;
    margin-right: 29px;
+   padding-left: 10px;
 }
 form input::placeholder {
-   color: #fff;
-   padding-left: 27px;
+  color: #fff;
 }
 form .submit {
-   padding: 0 93px;
+   padding: 0 73px;
    line-height: 49px;
    text-transform: uppercase;
    border-radius: 3px;
@@ -245,9 +245,6 @@ footer ul {
 footer .company {
    max-width: 250px;
 }
-footer .get {
-   margin-right: 100px;
-}
 .footer_title {
    color: #282828;
    font-size: 22px;
@@ -266,8 +263,6 @@ footer .get {
    border-radius: 3px;
    height: 47px;
    width: 220px;
-}
-.get input::placeholder {
    padding-left: 28px;
 }
 .get .send {
@@ -310,7 +305,7 @@ footer .get {
       right: 22px;
    }
    .design_section {
-      padding-left: 40px;
+      padding: 60px 20px;
    }
    .responsive_section .container {
       position: relative;
@@ -343,7 +338,6 @@ footer .get {
    }
    form .submit {
       display: inline;
-      max-width: 20%;
    }
    .trial {
       display: none;
@@ -401,7 +395,13 @@ footer .get {
    .features__item {
       margin: 0 30px 40px 30px;
    }
-   .design_section .container {
-      padding-right: 40px;
+   .new_section .sec_desc {
+     margin-bottom: 80px;
+   }
+   header h1 {
+     font-size: 40px;
+   }
+   header {
+     padding: 110px 0;
    }
 }
